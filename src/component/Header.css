@@ -1,0 +1,7 @@
+header{
+    display: flex;
+    min-width: 1024px;
+    min-height: 100px;
+    border-radius: 1px solid grey;
+    background: rgb(219, 208, 208);
+}
