@@ -1,0 +1,45 @@
+
+
+.logo-img{
+    width: 60%;
+    margin-left: 30px;
+
+}
+
+.header-title{
+    color: rgb(206, 202, 149);
+    font-size: 50px;
+    font-family: 'Playfair Display';
+}
+.sign {
+    height: 100%;
+    overflow: hidden;
+    width: 100px;
+}
+.sign-img {
+    height: 70px;
+    background: #ad9e9e;
+    border-radius: 35px;
+    margin: 15px auto 0;
+    width: 90%;
+}
+
+.button-sign {
+    border-radius: 8px;
+    width: 90%;
+    margin: 15px auto 0;
+}
+.button-sign:hover {
+    box-shadow: 0 0 5px rgb(223, 180, 87);
+}
+
+
+
+
+
+
+
+
+
+
+
