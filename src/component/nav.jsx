@@ -1,18 +1,29 @@
 import React from 'react';
+import "./style/nav.css"
+// static propTypes = {
+// };
+// static defaultProps = {};
 
 
 class Nav extends React.Component{
     render(){
         return(
-            <nav>nav
+            <div className="Nav">
                 <ul>
-                    <li>item1</li>
-                    <li>item1</li>
-                    <li>item1</li>
+                    <a href=""><li>Головна</li></a>
+                    <a href=""><li>Інформація для інвесторів</li></a>
+                    <a onClick={this.openList}><li>Конструктор документів</li></a>
                 </ul>
-            </nav>          
+            </div>
         );
     }
 }
+
+function openList(evt) {
+    console.log(evt);
+}
+
+
+
 
 export default Nav

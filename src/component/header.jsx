@@ -5,7 +5,7 @@ import Userpic from './userpic.png';
 import styledComponents from 'styled-components';
 
 
-const Header1 = styledComponents.header`
+const header = styledComponents.header`
     display: flex;
     min-width: 1024px;
     height: 150px;
@@ -18,7 +18,7 @@ const Header1 = styledComponents.header`
 class Header extends React.Component{
     render(){
         return(
-            <Header1>
+            <header>
             <div className='logo'>
                 <img className="logo-img" src={Logo}/>
             </div>
@@ -27,16 +27,11 @@ class Header extends React.Component{
                 <img className="sign-img" src={Userpic}/>
                 <button className='button-sign'>Вхід/Sign in</button>
             </div>
-            </Header1>
-          
+            </header>
         );
     }
 }
 
-// const Header = styled.h1`
-//     font-size: 2.5em;
-//     color: blue;
-//     border: 2px solid red;
-// `;
+
 
 export default Header

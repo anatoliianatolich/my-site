@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './header';
+import Nav from './nav';
 import Main from './main';
 import Footer from './footer';
 
@@ -9,6 +10,7 @@ class Body extends React.Component{
         return(
             <div className='body1'>
                 <Header/>
+                <Nav/>
                 <Main/>
                 <Footer/>
             </div>
