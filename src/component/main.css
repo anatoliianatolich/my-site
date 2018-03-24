@@ -1,0 +1,33 @@
+.mainNav{
+    background-image: url(./fon.jpg);
+    background-size: cover;
+    height: 1200px;
+    min-width: 1024px;
+    color: aliceblue;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+
+}
+main {
+    width: 70%;
+    min-height: 900px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    
+}
+nav {
+    width: 20%;
+    min-height: 700px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+   
+}
+ul{
+    margin: 0;
+}
+li{
+    list-style: none;
+    margin: 0;
+}
