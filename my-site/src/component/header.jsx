@@ -1,7 +1,7 @@
 import React from 'react';
-import './Header.css';
-import Logo from './court-justice.png';
-import Userpic from './userpic.png';
+import './style/Header.css';
+import Logo from './images/court-justice.png';
+import Userpic from './images/userpic.png';
 import styledComponents from 'styled-components';
 
 

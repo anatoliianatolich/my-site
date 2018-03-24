@@ -1,17 +1,17 @@
 .mainNav{
-    background-image: url(./fon.jpg);
+    background-image: url(/images/fon.jpg);
     background-size: cover;
     height: 1200px;
     min-width: 1024px;
     color: aliceblue;
     font-family: 'Playfair Display';
     font-size: 50px;
+    border: 2px red solid;
 
 }
 main {
     width: 70%;
     min-height: 900px;
-    height: 100%;
     float: left;
     overflow: hidden;
     
