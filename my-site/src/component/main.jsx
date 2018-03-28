@@ -6,6 +6,7 @@ import './style/main.css';
 
 class Main extends React.Component{
     render(){
+        const {name} = this.props;
         return(
             <div className="mainNav">
                 <nav>
@@ -13,6 +14,7 @@ class Main extends React.Component{
                     <li>item1</li>
                     <li>item1</li>
                     <li>item1</li>
+                    <li>{name}</li>
                 </ul>
                 </nav>
                 <main>
